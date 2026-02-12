@@ -21,7 +21,7 @@ const portfolioData = {
     'I actively solve DSA problems, explore machine learning concepts, and deploy real-world applications on VPS environments.',
     'I am currently seeking opportunities where I can contribute to impactful products, grow as a backend engineer, and build systems that scale.',
   ],
-  email: 'your-email@gmail.com', // Replace with your real email
+  email: 'sanskardagade07@gmail.com', // Replace with your real email
   location: 'Pune, India',
   resumeUrl: import.meta.env.BASE_URL + 'resume.pdf', // Place resume at public/resume.pdf
   socialLinks: {
@@ -119,28 +119,28 @@ const portfolioData = {
     title: 'Minutes of Meeting (MoM) Generator – AI Powered Automation',
     body: 'Developed an AI-powered meeting automation system providing real-time speech-to-text transcription, automated attendance tracking, intelligent summarization, and structured MoM documentation. Built responsive frontend using React and Tailwind CSS. Integrated IoT-based participant detection and facial recognition analytics. Designed scalable backend with Node.js and Express and used Python-based machine learning models for transcription and smart recap generation.',
     tech: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'Python', 'Machine Learning', 'IoT'],
-    link: '#',
+    link: 'https://github.com/sanskardagade/MoM_Generator.git',
   },
 
   {
     title: 'Real-Time Anomaly Detection System (SIH 2024 Finale)',
     body: 'Finalist project at Smart India Hackathon 2024 under Ministry of Jal Shakti. Built a real-time anomaly detection platform with predictive analytics, automated alerts, and a ticketing system for issue resolution. Cleaned and preprocessed datasets, implemented machine learning models for predictive monitoring, and built reliable backend services optimized for performance and scalability.',
     tech: ['Python', 'Machine Learning', 'Node.js', 'Express', 'Data Analytics', 'Predictive Modeling'],
-    link: '#',
+    link: 'https://jaldarpan.netlify.app/',
   },
 
   {
     title: 'PDF Editor – Online Document Editing Platform',
     body: 'Developed a browser-based PDF editing platform enabling users to upload, edit, annotate, and manage documents online. Implemented secure backend services for file processing and storage. Designed role-based access control to ensure secure document sharing and optimized file handling for smooth performance.',
     tech: ['React', 'Node.js', 'Express', 'Cloud Storage', 'Authentication', 'File Processing'],
-    link: '#',
+    link: 'https://github.com/sanskardagade/PDF.git',
   },
 
   {
     title: 'Blogging Website',
     body: 'Built a full-stack blogging platform with user authentication, blog CRUD operations, search functionality, dashboards, and rating system. Designed RESTful APIs with JWT-based authentication and role management. Developed responsive frontend for content publishing and community interaction.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'REST APIs'],
-    link: '#',
+    link: 'https://github.com/sanskardagade/Blogin-main.git',
   },
 ],
 
@@ -150,12 +150,24 @@ const portfolioData = {
   // CERTIFICATES - Used in Certificates.jsx
   // ---------------------------------------------------------------------------
   certificates: [
-    { name: 'Neural Networks and Deep Learning', link: 'https://drive.google.com/file/d/17fUm7MxuFlh5_oDq94ta5bA_tj65ETA3/view?usp=sharing', logo: import.meta.env.BASE_URL + 'logos/coursera.png' }, // <-- Replace with your certificates
-    { name: 'Improving Deep Neural Networks', link: 'https://drive.google.com/file/d/1Kku8bZv5Vc6FY5s8zKUOAOEOZaIpEJQO/view?usp=sharing', logo: import.meta.env.BASE_URL + 'logos/coursera.png' },
-    { name: 'Structuring Machine Learning Projects', link: 'https://drive.google.com/file/d/13-i_KZS5cy-nsum-x1qILMw50OMxfyM9/view?usp=sharing', logo: import.meta.env.BASE_URL + 'logos/coursera.png' },
-    { name: 'Cyber Security Foundation', link: 'https://drive.google.com/file/d/1vVTc1oEv9KZukPBfK33cg6ICQG0hLT8p/view?usp=sharing', logo: import.meta.env.BASE_URL + 'logos/certi-proof.png' },
-    { name: 'SEO Fundamentals Exam', link: 'https://drive.google.com/file/d/1LxF38TmQgO1cWwrfA7AUToqDj56mHBZS/view?usp=sharing', logo: import.meta.env.BASE_URL + 'logos/semrush.png' },
-    ],
+  {
+    name: 'Full Stack Web Development Bootcamp',
+    link: 'https://www.udemy.com/share/10b9kU3@rl3ky1aDJIwoqV508KflGYbXozMmRzjxmJ-fWWpzDrbMJrKBJEp58ITUEU9sq9mDLA==/',
+    logo: import.meta.env.BASE_URL + 'logos/udemy.png',
+  },
+  
+  {
+    name: 'Complete Data Science,Machine Learning,DL,NLP Bootcamp',
+    link: 'https://www.udemy.com/share/10bO8l3@Pi6XLodTf0DNECxd42Qr5TCPjORXVETcmZb0ToPvvFwHUoe6Kt-TytN2vVmk3N-_xw==/',
+    logo: import.meta.env.BASE_URL + 'logos/udemy.png',
+  },
+  {
+    name: 'Docker and Kubernetes for beginners | DevOps journey',
+    link: 'https://www.udemy.com/share/10dqWp3@1d1QVreWr3ZVQahpIXOWeL0uuVX_A3fQXLR5kCW8AHkZiY9inUvLA444LrXwbC2Liw==/',
+    logo: import.meta.env.BASE_URL + 'logos/udemy.png',
+  },
+],
+
 
   // ---------------------------------------------------------------------------
   // NAVIGATION - Used in Header.jsx
