@@ -1,0 +1,165 @@
+.header {
+  position: fixed;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 48px);
+  max-width: 1048px;
+  background: var(--bg-header);
+  backdrop-filter: blur(var(--blur));
+  -webkit-backdrop-filter: blur(var(--blur));
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px var(--glass-shadow);
+  z-index: 1000;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.header-container {
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+
+.header-logo {
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-decoration: none;
+  letter-spacing: 0.0018em;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.logo-text {
+  background: linear-gradient(135deg, #b8a9e8, #f5b7a8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  letter-spacing: 0.0018em;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 4px;
+}
+
+.nav-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  transition: color 0.2s, background 0.2s;
+}
+
+/* Per-section nav hover colors */
+.nav-link.nav-about:hover { color: var(--color-about); background: var(--color-about-bg); }
+.nav-link.nav-education:hover { color: var(--color-education); background: var(--color-education-bg); }
+.nav-link.nav-experience:hover { color: var(--color-experience); background: var(--color-experience-bg); }
+.nav-link.nav-projects:hover { color: var(--color-projects); background: var(--color-projects-bg); }
+.nav-link.nav-contact:hover { color: var(--color-contact); background: var(--color-contact-bg); }
+.nav-link.nav-certificates:hover { color: var(--color-certificates); background: var(--color-certificates-bg); }
+
+/* Per-section nav active colors */
+.nav-link.nav-about.active { color: var(--color-about); background: var(--color-about-bg); }
+.nav-link.nav-education.active { color: var(--color-education); background: var(--color-education-bg); }
+.nav-link.nav-experience.active { color: var(--color-experience); background: var(--color-experience-bg); }
+.nav-link.nav-projects.active { color: var(--color-projects); background: var(--color-projects-bg); }
+.nav-link.nav-certificates.active { color: var(--color-certificates); background: var(--color-certificates-bg); }
+.nav-link.nav-contact.active { color: var(--color-contact); background: var(--color-contact-bg); }
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid var(--glass-border);
+  background: var(--bg-card);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: color 0.2s, background 0.2s, border-color 0.2s;
+}
+
+.theme-toggle:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text-secondary);
+  border-radius: 2px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .header {
+    top: 8px;
+    width: calc(100% - 24px);
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .header-nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background: var(--bg-header);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    padding: 12px 16px;
+    box-shadow: 0 8px 32px var(--glass-shadow);
+  }
+
+  .header-nav.open {
+    display: flex;
+  }
+}
