@@ -25,9 +25,9 @@ const portfolioData = {
   location: 'Pune, India',
   resumeUrl: import.meta.env.BASE_URL + 'resume.pdf', // Place resume at public/resume.pdf
   socialLinks: {
-    linkedin: 'https://linkedin.com/in/your-linkedin',
-    github: 'https://github.com/your-username',
-    discord: '', // optional
+    linkedin: 'https://www.linkedin.com/in/sanskar-dagade-6093a025b/',
+    github: 'https://github.com/sanskardagade',
+    discord: 'https://discord.com/sanskardagade07', // optional
   },
 },
 

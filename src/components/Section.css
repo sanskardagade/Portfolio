@@ -118,6 +118,9 @@
   color: var(--text-secondary);
   margin-bottom: 10px;
   letter-spacing: -0.1px;
+  
+  text-align: justify;      /* ADD THIS */
+  text-justify: inter-word; /* Optional but better spacing */
 }
 
 .about-text strong {
@@ -279,7 +282,10 @@
 }
 
 /* Section-specific timeline dots */
-.section-education .timeline-dot { background: var(--color-education); box-shadow: 0 0 0 2px rgba(103, 232, 249, 0.15); }
+.section-education .timeline-dot {
+  background: #FFBF00;
+  box-shadow: 0 0 0 2px rgba(255, 191, 0, 0.25);
+}
 .section-experience .timeline-dot { background: var(--color-experience); box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.15); }
 
 .timeline-year {
@@ -293,7 +299,10 @@
   margin-bottom: 8px;
 }
 
-.section-education .timeline-year { color: var(--color-education); background: rgba(103, 232, 249, 0.1); }
+.section-education .timeline-year {
+  color: #FFBF00;
+  background: rgba(255, 191, 0, 0.12);
+}
 .section-experience .timeline-year { color: var(--color-experience); background: rgba(251, 191, 36, 0.1); }
 
 .timeline-content h3 {
@@ -485,11 +494,12 @@
   font-size: 0.8rem;
   font-weight: 500;
   padding: 4px 12px;
-  background: rgba(103, 232, 249, 0.08);
-  color: var(--color-education);
+  background: rgba(255, 191, 0, 0.08);
+  color: #FFBF00;
   border-radius: 8px;
-  border: 1px solid rgba(103, 232, 249, 0.15);
+  border: 1px solid rgba(255, 191, 0, 0.25);
 }
+
 
 /* Floating section title emojis (shared across all sections) */
 .section-emojis {
@@ -663,9 +673,10 @@
   box-shadow: 0 0 24px rgba(167, 139, 250, 0.12), 0 8px 40px var(--glass-shadow);
 }
 .section-education .card:hover {
-  border-color: rgba(103, 232, 249, 0.25);
-  box-shadow: 0 0 24px rgba(103, 232, 249, 0.12), 0 8px 40px var(--glass-shadow);
+  border-color: rgba(255, 191, 0, 0.35);
+  box-shadow: 0 0 28px rgba(255, 191, 0, 0.18), 0 8px 40px var(--glass-shadow);
 }
+
 .section-experience .card:hover {
   border-color: rgba(251, 191, 36, 0.25);
   box-shadow: 0 0 24px rgba(251, 191, 36, 0.12), 0 8px 40px var(--glass-shadow);
@@ -691,8 +702,8 @@
   box-shadow: 0 0 32px rgba(124, 58, 237, 0.18), 0 8px 40px var(--glass-shadow);
 }
 [data-theme="light"] .section-education .card:hover {
-  border-color: rgba(8, 145, 178, 0.35);
-  box-shadow: 0 0 32px rgba(8, 145, 178, 0.18), 0 8px 40px var(--glass-shadow);
+  border-color: rgba(255, 191, 0, 0.45);
+  box-shadow: 0 0 32px rgba(255, 191, 0, 0.25), 0 8px 40px var(--glass-shadow);
 }
 [data-theme="light"] .section-experience .card:hover {
   border-color: rgba(217, 119, 6, 0.35);
@@ -899,7 +910,7 @@
 }
 
 .contact-info h3 {
-  color: var(--color-contact);
+  color: var(#FFBF00);
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 12px;
@@ -1050,4 +1061,19 @@
   .projects-grid {
     grid-template-columns: 1fr;
   }
+}
+
+
+.title-experience,
+.title-projects,
+.title-certificates,
+.title-contact {
+  color: #67E8F9 !important;
+}
+
+.title-experience::after,
+.title-projects::after,
+.title-certificates::after,
+.title-contact::after {
+  background: #67E8F9 !important;
 }

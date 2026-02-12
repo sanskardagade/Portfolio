@@ -65,21 +65,15 @@
   transition: color 0.2s, background 0.2s;
 }
 
-/* Per-section nav hover colors */
-.nav-link.nav-about:hover { color: var(--color-about); background: var(--color-about-bg); }
-.nav-link.nav-education:hover { color: var(--color-education); background: var(--color-education-bg); }
-.nav-link.nav-experience:hover { color: var(--color-experience); background: var(--color-experience-bg); }
-.nav-link.nav-projects:hover { color: var(--color-projects); background: var(--color-projects-bg); }
-.nav-link.nav-contact:hover { color: var(--color-contact); background: var(--color-contact-bg); }
-.nav-link.nav-certificates:hover { color: var(--color-certificates); background: var(--color-certificates-bg); }
+/* ===== FORCE ALL NAV ITEMS TO SAME COLOR ===== */
 
-/* Per-section nav active colors */
-.nav-link.nav-about.active { color: var(--color-about); background: var(--color-about-bg); }
-.nav-link.nav-education.active { color: var(--color-education); background: var(--color-education-bg); }
-.nav-link.nav-experience.active { color: var(--color-experience); background: var(--color-experience-bg); }
-.nav-link.nav-projects.active { color: var(--color-projects); background: var(--color-projects-bg); }
-.nav-link.nav-certificates.active { color: var(--color-certificates); background: var(--color-certificates-bg); }
-.nav-link.nav-contact.active { color: var(--color-contact); background: var(--color-contact-bg); }
+.header-nav .nav-link:hover,
+.header-nav .nav-link.active {
+  color: #67e8f9 !important;
+  background: rgba(103, 232, 249, 0.12) !important;
+}
+
+/* =============================== */
 
 .theme-toggle {
   display: flex;
@@ -98,8 +92,8 @@
 }
 
 .theme-toggle:hover {
-  color: var(--accent);
-  border-color: var(--accent);
+  color: #67e8f9;
+  border-color: #67e8f9;
 }
 
 .hamburger {
