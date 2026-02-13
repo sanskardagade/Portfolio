@@ -74,7 +74,7 @@ function App() {
           <Contact />
         </main>
         <footer className="footer">
-          <p>Made with <span className="footer-heart">&hearts;</span> by Sanskar</p>
+          <p>© {new Date().getFullYear()} {personal.name}. All rights reserved.</p>
         </footer>
       </div>
     </ThemeProvider>
