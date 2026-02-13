@@ -28,6 +28,7 @@ const portfolioData = {
     linkedin: 'https://www.linkedin.com/in/sanskar-dagade-6093a025b/',
     github: 'https://github.com/sanskardagade',
     discord: 'https://discord.com/sanskardagade07', // optional
+    leetcode: 'https://leetcode.com/sanskardagade/', // optional
   },
 },
 
