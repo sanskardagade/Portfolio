@@ -128,10 +128,16 @@
   font-weight: 600;
 }
 
-.bio-highlight-a {
+/* .bio-highlight-a {
   color: var(--color-about);
   font-weight: 600;
+} */
+
+.bio-highlight-a {
+  color: #FFBF00;
+  font-weight: 600;
 }
+
 
 .bio-highlight-b {
   color: var(--color-projects);
@@ -976,7 +982,7 @@
 
 .submit-btn {
   padding: 12px 24px;
-  background: var(--color-contact);
+  background: #FFBF00;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -989,10 +995,11 @@
 }
 
 .submit-btn:hover {
-  background: var(--color-contact);
+  background: #67E8F9;
   transform: translateY(-1px);
-  box-shadow: 0 0 20px rgba(110, 231, 183, 0.3);
+  box-shadow: 0 0 20px rgba(103, 232, 249, 0.4);
 }
+
 
 .success-message {
   color: var(--color-contact);
