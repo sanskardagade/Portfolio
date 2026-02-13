@@ -58,13 +58,13 @@ function About() {
       <div className="section-container">
         <h2 className="section-title title-about">
           <span className="section-emojis">
-            <span className="section-emoji-float" style={{ animationDelay: '0s' }}>👤</span>
-            <span className="section-emoji-float" style={{ animationDelay: '0.4s' }}>🙋</span>
+            {/* <span className="section-emoji-float" style={{ animationDelay: '0s' }}>👤</span>
+            <span className="section-emoji-float" style={{ animationDelay: '0.4s' }}>🙋</span> */}
           </span>
           About Me
           <span className="section-emojis">
-            <span className="section-emoji-float" style={{ animationDelay: '0.8s' }}>💫</span>
-            <span className="section-emoji-float" style={{ animationDelay: '1.2s' }}>✨</span>
+            {/* <span className="section-emoji-float" style={{ animationDelay: '0.8s' }}>💫</span>
+            <span className="section-emoji-float" style={{ animationDelay: '1.2s' }}>✨</span> */}
           </span>
         </h2>
         <div className="about-content">
