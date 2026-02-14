@@ -74,13 +74,13 @@ const portfolioData = {
         logo: import.meta.env.BASE_URL + 'logos/meds4you.png',
         link: 'https://meds4you.in',
         points: [
-          'Built and deployed a full-stack medical e-commerce platform focused on generic medicines using React, Node.js, Express, and MongoDB.',
+          'Created a healthcare e-commerce platform supporting 100+ registered users within the first launch phase. ',
 
-          'Integrated Razorpay payment gateway and implemented secure JWT-based authentication with role management (Admin & User).',
+          'Integrated Razorpay payment gateway, ensuring secure transactions with a 99% payment success rate. ',
 
-          'Designed scalable REST APIs for product management, order tracking, and inventory handling, improving backend response efficiency.',
+          ' Wrote 15+ backend APIs for products, users, and orders ensuring smooth data exchange. ',
 
-          'Optimized UI/UX with consistent branding and responsive design, ensuring seamless cross-device experience.'
+          'Deployed application on VPS with zero downtime during first 3 months of live usage.'
         ],
       },
 
@@ -92,11 +92,11 @@ const portfolioData = {
         logo: import.meta.env.BASE_URL + 'logos/modelminds.png',
         link: 'https://modelminds.in',
         points: [
-          'Independently designed and developed a complete full-stack platform for an architect to showcase projects, manage employees, clients, and end-to-end project workflows.',
+          'Converted Excel-based tracking system into web platform managing 200+ clients and 70+ ongoing projects. ',
 
-          'Implemented secure role-based authentication (Admin, Architect, Employee, Client) using JWT and bcrypt for structured access control.',
+          'Automated financial summaries, reducing manual calculation errors by 80%.',
 
-          'Built payment setup and funding management modules to handle project-based transactions, revenue tracking, and financial monitoring.',
+          'Managed the project independently from requirement gathering to final deployment.',
 
           
         ],
@@ -112,21 +112,22 @@ const portfolioData = {
   projects: [
   {
     title: 'Campus Connect',
-    body: 'A full-scale AI-powered campus management platform serving 450+ real-world users daily, focused on improving campus safety, automation, and student/faculty experience. Designed scalable backend architecture using Node.js and Express with secure role-based access control and real-time updates. Integrated AI-driven facial recognition from CCTV cameras to automate attendance, built student activity monitoring modules, real-time alert systems, documentation management, and stress-management support features.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'AI/ML', 'Facial Recognition', 'JWT', 'Real-Time Systems'],
+    body: 'Created a campus-wide management system supporting operations across 10+ departments and serving 450+ active users daily. Achieved 94% facial recognition accuracy after training model on 1,000+ image samples. Cut manual attendance work by 70% through automation. Lowered paperwork processing by 50% by introducing an automated Leave Approval module.',
+    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'AI/ML', 'Facial Recognition', 'CNN', 'JWT', 'Real-Time Systems'],
     link: 'https://dypdpu.in',
   },
 
   {
     title: 'Minutes of Meeting (MoM) Generator – AI Powered Automation',
-    body: 'Developed an AI-powered meeting automation system providing real-time speech-to-text transcription, automated attendance tracking, intelligent summarization, and structured MoM documentation. Built responsive frontend using React and Tailwind CSS. Integrated IoT-based participant detection and facial recognition analytics. Designed scalable backend with Node.js and Express and used Python-based machine learning models for transcription and smart recap generation.',
-    tech: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'Python', 'Machine Learning', 'IoT'],
+    body: 'Initiated an AI-powered meeting tool that generates summaries with 98% transcription accuracy. Integrated IoT-based attendance logging improving participant tracking efficiency by 60% across meetings. Reduced manual documentation time from 30 minutes to under 5 minutes per meeting.',
+    tech: ['React',  'Node.js', 'Express', 'Python', 'Machine Learning', 'IoT'],
     link: 'https://github.com/sanskardagade/MoM_Generator.git',
   },
 
   {
     title: 'Real-Time Anomaly Detection System (SIH 2024 Finale)',
-    body: 'Finalist project at Smart India Hackathon 2024 under Ministry of Jal Shakti. Built a real-time anomaly detection platform with predictive analytics, automated alerts, and a ticketing system for issue resolution. Cleaned and preprocessed datasets, implemented machine learning models for predictive monitoring, and built reliable backend services optimized for performance and scalability.',
+    body: '  Worked as team lead to build a real-time anomaly detection system for Smart India Hackathon 2024. Formulated and executed machine learning techniques to uncover hidden patterns in data, achieving a 20% improvement in system  efficiency through faster analysis and risk assessment capabilities, directly benefiting decision-making.  ',
+
     tech: ['Python', 'Machine Learning', 'Node.js', 'Express', 'Data Analytics', 'Predictive Modeling'],
     link: 'https://jaldarpan.netlify.app/',
   },

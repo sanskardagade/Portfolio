@@ -16,7 +16,7 @@ html {
   --bg-primary: #000000;
   --bg-secondary: #0f0f24;
   --bg-header: rgba(11, 11, 26, 0.6);
-  --bg-card: rgba(255, 255, 255, 0.04);
+  --bg-card: rgba(255, 255, 255, 0.05);
   --bg-card-hover: rgba(255, 255, 255, 0.08);
   --glass-border: rgba(255, 255, 255, 0.08);
   --glass-shadow: rgba(0, 0, 0, 0.4);
@@ -26,9 +26,7 @@ html {
   --text-faint: #66668a;
   --accent: #FFBF00;
   --accent-hover: #e6ac00;
-  /* --accent-bg: rgba(233, 69, 96, 0.1); */
-  --accent-bg: rgba(255, 191, 0, 0.07);
-
+  --accent-bg: rgba(233, 69, 96, 0.1);
   --accent-bg-strong: rgba(233, 69, 96, 0.15);
   --border: rgba(255, 255, 255, 0.06);
   --shadow: rgba(0, 0, 0, 0.3);
@@ -37,7 +35,7 @@ html {
   --input-bg: rgba(255, 255, 255, 0.04);
 
   /* Pastel section colors (dark mode) */
-  /* --color-about: #67e8f9;
+  --color-about: #67e8f9;
 --color-about-bg: rgba(103, 232, 249, 0.06);
   --color-education: #67e8f9;
   --color-education-bg: rgba(103, 232, 249, 0.06);
@@ -48,27 +46,7 @@ html {
   --color-contact: #63d0a5;
   --color-contact-bg: rgba(99, 208, 165, 0.06);
   --color-certificates: #facc15;
-  --color-certificates-bg: rgba(250, 204, 21, 0.06); */
-
-  /* Unified gold accent for dark mode */
---color-about: #FFBF00;
---color-about-bg: rgba(255, 191, 0, 0.08);
-
---color-education: #FFBF00;
---color-education-bg: rgba(255, 191, 0, 0.08);
-
---color-experience: #FFBF00;
---color-experience-bg: rgba(255, 191, 0, 0.08);
-
---color-projects: #FFBF00;
---color-projects-bg: rgba(255, 191, 0, 0.08);
-
---color-contact: #FFBF00;
---color-contact-bg: rgba(255, 191, 0, 0.08);
-
---color-certificates: #FFBF00;
---color-certificates-bg: rgba(255, 191, 0, 0.08);
-
+  --color-certificates-bg: rgba(250, 204, 21, 0.06);
 
 }
 
@@ -96,18 +74,18 @@ html {
   --input-bg: rgba(255, 255, 255, 0.6);
 
   /* Pastel section colors (light mode) */
-  --color-about: #FFBF00;
-  --color-about-bg: #FFBF00;
-  --color-education: #FFBF00;
-  --color-education-bg: #FFBF00;
-  --color-experience: #FFBF00;
-  --color-experience-bg: #FFBF00;
+  --color-about: #0891b2;
+  --color-about-bg: rgba(8, 145, 178, 0.06);
+  --color-education: #0891b2;
+  --color-education-bg: rgba(8, 145, 178, 0.06);
+  --color-experience: #d97706;
+  --color-experience-bg: rgba(217, 119, 6, 0.06);
   --color-projects: #FFBF00;
-  --color-projects-bg: #FFBF00;
-  --color-contact: #FFBF00;
-  --color-contact-bg: #FFBF00;
-  --color-certificates: #FFBF00;
-  --color-certificates-bg: #FFBF00;
+  --color-projects-bg: rgba(219, 39, 119, 0.06);
+  --color-contact: #059669;
+  --color-contact-bg: rgba(5, 150, 105, 0.06);
+  --color-certificates: #ca8a04;
+  --color-certificates-bg: rgba(202, 138, 4, 0.06);
 
 }
 

@@ -31,7 +31,7 @@
 .section-title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--accent);
+  color: var(#FFBF00);
   margin-bottom: 40px;
   text-align: center;
   letter-spacing: -0.5px;
@@ -211,7 +211,7 @@
   align-items: center;
   gap: 6px;
   padding: 9px 18px;
-  background: var(--color-about);
+  background: var(#FFBF00);
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -225,7 +225,7 @@
 }
 
 .resume-btn:hover {
-  background: var(--color-about);
+  background: var(#FFBF00);
   transform: translateY(-1px);
   box-shadow: 0 0 20px rgba(167, 139, 250, 0.3);
 }
@@ -681,13 +681,24 @@
 }
 
 /* Per-section pastel hover glow on cards */
-.section-about .card:hover {
+/* .section-about .card:hover {
   border-color: rgba(167, 139, 250, 0.25);
   box-shadow: 0 0 24px rgba(167, 139, 250, 0.12), 0 8px 40px var(--glass-shadow);
-}
-.section-education .card:hover {
+} */
+
+.section-about .card:hover {
   border-color: rgba(255, 191, 0, 0.35);
   box-shadow: 0 0 28px rgba(255, 191, 0, 0.18), 0 8px 40px var(--glass-shadow);
+}
+
+/* .section-education .card:hover {
+  border-color: rgba(255, 191, 0, 0.35);
+  box-shadow: 0 0 28px rgba(255, 191, 0, 0.18), 0 8px 40px var(--glass-shadow);
+} */
+
+.section-education .card:hover {
+  border-color: rgba(255, 191, 0, 0.25);
+  box-shadow: 0 0 16px rgba(255, 191, 0, 0.12), 0 8px 32px var(--glass-shadow);
 }
 
 .section-experience .card:hover {
@@ -782,7 +793,9 @@
   font-size: 0.75rem;
   font-weight: 500;
   color: var(--color-experience);
-  background: rgba(251, 191, 36, 0.1);
+  /* background: rgba(251, 191, 36, 0.1); */
+  background: rgba(255, 191, 0, 0.12);
+  color: #FFBF00;
   padding: 2px 10px;
   border-radius: 8px;
   margin-right: 12px;
@@ -1001,11 +1014,18 @@
   transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
 }
 
-.submit-btn:hover {
+/* .submit-btn:hover {
   background: #67E8F9;
   transform: translateY(-1px);
   box-shadow: 0 0 20px rgba(103, 232, 249, 0.4);
+} */
+
+.submit-btn:hover {
+  background: #FFBF00;
+  transform: translateY(-1px);
+  box-shadow: 0 0 20px rgba(255, 191, 0, 0.4);
 }
+
 
 
 .success-message {
@@ -1077,7 +1097,7 @@
   }
 }
 
-
+/* 
 .title-experience,
 .title-projects,
 .title-certificates,
@@ -1090,4 +1110,4 @@
 .title-certificates::after,
 .title-contact::after {
   background: #67E8F9 !important;
-}
+} */

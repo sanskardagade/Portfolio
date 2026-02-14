@@ -69,8 +69,11 @@
 
 .header-nav .nav-link:hover,
 .header-nav .nav-link.active {
-  color: #67e8f9 !important;
-  background: rgba(103, 232, 249, 0.12) !important;
+  /* color: #67e8f9 !important;
+  background: rgba(103, 232, 249, 0.12) !important; */
+
+  background: rgba(255, 191, 0, 0.15);
+  color: #FFBF00;
 }
 
 /* =============================== */
