@@ -16,7 +16,7 @@ html {
   --bg-primary: #000000;
   --bg-secondary: #0f0f24;
   --bg-header: rgba(11, 11, 26, 0.6);
-  --bg-card: rgba(255, 255, 255, 0.04);
+  --bg-card: rgba(255, 255, 255, 0.035);
   --bg-card-hover: rgba(255, 255, 255, 0.08);
   --glass-border: rgba(255, 255, 255, 0.08);
   --glass-shadow: rgba(0, 0, 0, 0.4);

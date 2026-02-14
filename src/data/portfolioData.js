@@ -14,13 +14,19 @@ const portfolioData = {
   title: 'Full Stack Developer | Backend Specialist | AI Enthusiast',
   avatarUrl: import.meta.env.BASE_URL + 'profile-photo.jpg', // Place your photo at public/profile-photo.jpg
   bio: [
-    'Hi there <span class="wave-emoji">\u{1F44B}</span>',
-    'I am a final-year <span class="bio-highlight-a">Computer Engineering</span> student at <span class="bio-highlight-a">Dr. D. Y. Patil Institute of Technology, Pune</span>, driven by a passion for building scalable and high-performance software systems.',
-    'I am a <span class="bio-highlight-b">Full Stack Developer</span> with strong expertise in designing robust backend architectures, scalable APIs, and seamless frontend experiences.',
-    'I possess strong command over <span class="bio-highlight-b">Machine Learning</span> and <span class="bio-highlight-b">Data Science</span>, and I am actively expanding my expertise in <span class="bio-highlight-b">Generative AI</span> and intelligent system development.',
-    'I build and deploy production-ready applications, host websites on <span class="bio-highlight-b">VPS and cloud environments</span>, and focus on writing clean, maintainable, and scalable code.',
-    'I consistently practice <span class="bio-highlight-b">Data Structures & Algorithms</span> and aspire to contribute to impactful products while evolving as a <span class="bio-highlight-b">Software Engineer</span>.',
-  ],
+  'Hi there <span class="wave-emoji">\u{1F44B}</span>',
+
+  'I am a final-year Computer Engineering student at Dr. D. Y. Patil Institute of Technology, Pune, driven by a passion for building scalable and high-performance software systems.',
+
+  'I am a <span class="bio-highlight-a">Full Stack Developer</span> with strong expertise in designing robust backend architectures, scalable APIs, and seamless frontend experiences.',
+
+  'I possess strong command over Machine Learning and Data Science, and I am actively expanding my expertise in <span class="bio-highlight-a">Generative AI</span> and intelligent system development.',
+
+  'I build and deploy production-ready applications, host websites on VPS and cloud environments, and focus on writing clean, maintainable, and scalable code.',
+
+  'I consistently practice Data Structures & Algorithms and aspire to contribute to impactful products while evolving as a <span class="bio-highlight-a">Software Engineer</span>.',
+],
+
 
   email: 'sanskardagade07@gmail.com', // Replace with your real email
   location: 'Pune, India',

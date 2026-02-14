@@ -30,7 +30,7 @@
 
 .section-title {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(#FFBF00);
   margin-bottom: 40px;
   text-align: center;
@@ -96,7 +96,7 @@
   margin-top: 12px;
   font-size: 0.95rem;
   /* font-size: 1.5 rem; */
-  color: #FFBF00;
+  color: var(--text-primary);
   letter-spacing: -0.1px;
   font-weight: 700;
 }
@@ -106,7 +106,7 @@
   margin-top: 4px;
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--color-about);
+  color: var(--text-secondary);
   letter-spacing: -0.1px;
 }
 
@@ -327,11 +327,11 @@
 }
 
 .section-experience .timeline-content h3 {
-  color: var(--color-experience);
+  color: var(--text-primary);
 }
 
 .section-education .timeline-content h3 {
-  color: var(--color-education);
+  color: var(--text-primary);
 }
 
 /* Shared logo + title row for education and experience cards */
@@ -416,7 +416,7 @@
 
 /* Institution/organization text: lighter shade of section title color */
 .section-education .timeline-institution {
-  color: var(--color-education);
+  color: var(--text-secondary);
   opacity: 0.8;
 }
 
@@ -507,10 +507,10 @@
   font-size: 0.8rem;
   font-weight: 500;
   padding: 4px 12px;
-  background: rgba(255, 191, 0, 0.08);
+  background: rgba(255, 191, 0, 0.05);
   color: #FFBF00;
   border-radius: 8px;
-  border: 1px solid rgba(255, 191, 0, 0.25);
+  border: 1px solid rgba(255, 191, 0, 0.18);
 }
 
 
@@ -697,8 +697,8 @@
 } */
 
 .section-education .card:hover {
-  border-color: rgba(255, 191, 0, 0.25);
-  box-shadow: 0 0 16px rgba(255, 191, 0, 0.12), 0 8px 32px var(--glass-shadow);
+  border-color: rgba(255, 191, 0, 0.22);
+  box-shadow: 0 0 14px rgba(255, 191, 0, 0.10), 0 6px 28px var(--glass-shadow);
 }
 
 .section-experience .card:hover {
@@ -871,7 +871,8 @@
 }
 
 .project-card-header h3 {
-  color: var(--color-projects);
+  /* color: var(--color-projects); */
+  color: var(--text-primary);
   font-size: 1.05rem;
   font-weight: 600;
   letter-spacing: -0.2px;
