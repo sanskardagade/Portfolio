@@ -94,10 +94,10 @@
 .avatar-name {
   text-align: center;
   margin-top: 12px;
-  font-size: 0.95rem;
+  font-size: 1.25rem;
   /* font-size: 1.5 rem; */
   color: var(--text-primary);
-  letter-spacing: -0.1px;
+  letter-spacing: -0.2px;
   font-weight: 700;
 }
 
@@ -1040,7 +1040,7 @@
 .submit-btn {
   padding: 12px 24px;
   background: var(--accent);
-  color: #fff;
+  color: var(--text-on-accent);
   border: none;
   border-radius: 12px;
   font-size: 0.95rem;
@@ -1058,7 +1058,7 @@
 } */
 
 .submit-btn:hover {
-  background: #FFBF00;
+  background: var(--accent);
   transform: translateY(-1px);
   box-shadow: 0 0 20px var(--accent-bg);
 }
@@ -1072,7 +1072,7 @@
 }
 
 .error-message {
-  color: #ef4444;
+  color: var(--color-error);
   font-weight: 500;
   text-align: center;
 }
