@@ -31,7 +31,7 @@
 .section-title {
   font-size: 1.8rem;
   font-weight: 600;
-  color: var(#FFBF00);
+  color: var(--accent);
   margin-bottom: 40px;
   text-align: center;
   letter-spacing: -0.5px;
@@ -141,7 +141,7 @@
 } */
 
 .bio-highlight-a {
-  color: #FFBF00;
+  color: var(--accent);
   font-weight: 600;
 }
 
@@ -296,7 +296,7 @@
 
 /* Section-specific timeline dots */
 .section-education .timeline-dot {
-  background: #FFBF00;
+  background: var(--accent);
   box-shadow: 0 0 0 2px rgba(255, 191, 0, 0.25);
 }
 .section-experience .timeline-dot { background: var(--color-experience); box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.15); }
@@ -313,7 +313,7 @@
 }
 
 .section-education .timeline-year {
-  color: #FFBF00;
+  color: var(--accent);
   background: rgba(255, 191, 0, 0.12);
 }
 .section-experience .timeline-year { color: var(--color-experience); background: rgba(251, 191, 36, 0.1); }
@@ -503,7 +503,7 @@
   gap: 6px;
 }
 
-.edu-coursework-list li {
+/* .edu-coursework-list li {
   font-size: 0.8rem;
   font-weight: 500;
   padding: 4px 12px;
@@ -511,6 +511,23 @@
   color: #FFBF00;
   border-radius: 8px;
   border: 1px solid rgba(255, 191, 0, 0.18);
+} */
+
+.edu-coursework-list li {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 4px 12px;
+  background: var(--bg-card);
+  color: var(--text-muted);
+  border-radius: 8px;
+  border: 1px solid var(--glass-border);
+  transition: all 0.2s ease;
+}
+
+.edu-coursework-list li:hover {
+  color: var(--color-education);
+  border-color: var(--color-education);
+  background: var(--color-education-bg);
 }
 
 
@@ -794,8 +811,8 @@
   font-weight: 500;
   color: var(--color-experience);
   /* background: rgba(251, 191, 36, 0.1); */
-  background: rgba(255, 191, 0, 0.12);
-  color: #FFBF00;
+  background: var(--color-experience-bg);
+  color: var(--color-experience);
   padding: 2px 10px;
   border-radius: 8px;
   margin-right: 12px;
@@ -918,7 +935,7 @@
   margin-top: auto;
 }
 
-.tech-tag {
+/* .tech-tag {
   font-size: 0.75rem;
   font-weight: 500;
   padding: 4px 10px;
@@ -926,7 +943,26 @@
   color: var(--color-projects);
   border-radius: 8px;
   border: 1px solid rgba(255, 191, 0, 0.1);
+} */
+
+
+.tech-tag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 4px 10px;
+  background: var(--bg-card);
+  color: var(--text-muted);
+  border-radius: 8px;
+  border: 1px solid var(--glass-border);
+  transition: all 0.2s ease;
 }
+
+.tech-tag:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: rgba(255, 191, 0, 0.08);
+}
+
 
 /* ======== Contact (Glass) ======== */
 .contact-wrapper {
@@ -937,7 +973,7 @@
 }
 
 .contact-info h3 {
-  color: var(#FFBF00);
+  color: var(--accent);
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 12px;
@@ -1003,7 +1039,7 @@
 
 .submit-btn {
   padding: 12px 24px;
-  background: #FFBF00;
+  background: var(--accent);
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -1024,7 +1060,7 @@
 .submit-btn:hover {
   background: #FFBF00;
   transform: translateY(-1px);
-  box-shadow: 0 0 20px rgba(255, 191, 0, 0.4);
+  box-shadow: 0 0 20px var(--accent-bg);
 }
 
 
